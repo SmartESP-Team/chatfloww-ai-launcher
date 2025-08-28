@@ -34,7 +34,7 @@ const Contact = () => {
             size="lg"
           >
             <MessageCircle className="w-6 h-6 mr-3" />
-            Contactez-nous sur WhatsApp
+            Demandez votre essai gratuit avec accès illimité pendant 24H
           </Button>
         </div>
 
