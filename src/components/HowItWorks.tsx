@@ -27,10 +27,10 @@ const HowItWorks = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Comment ça marche ?
+            Comment les autres explosent leurs ventes avant toi… avec ChatFloww ? 💥🚀
           </h2>
           <p className="text-xl text-muted-foreground">
-            Simple, efficace, révolutionnaire.
+            Direct. Efficace. Boom ! 💥
           </p>
         </div>
         
