@@ -19,7 +19,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
           Double ta vitesse de chatting,{" "}
           <span className="bg-gradient-to-r from-primary-glow to-accent bg-clip-text text-transparent">
-            Fais exploser tes PPV et engage chaque sub dans tes discussions ! 🚀💰💬.
+            Fais exploser tes PPV et engage chaque sub dans tes discussions! 🚀💰💬.
           </span>
         </h1>
         
@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="text-primary-foreground/80">Plus rapide</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold mb-2">3-4x</div>
+            <div className="text-3xl font-bold mb-2">3-4x + $$$💰</div>
             <div className="text-primary-foreground/80">Dégain en 1 sec, boom, résultats ! ⚡</div>
           </div>
           <div className="text-center">
