@@ -1,0 +1,57 @@
+import { Button } from "@/components/ui/button";
+
+const FinalCTA = () => {
+  const scrollToPricing = () => {
+    const pricingSection = document.getElementById('pricing');
+    pricingSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <section className="py-20 px-6 bg-gradient-hero relative overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-10 right-20 w-24 h-24 bg-primary-glow/20 rounded-full blur-xl animate-pulse" />
+      <div className="absolute bottom-20 left-10 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-pulse delay-500" />
+      
+      <div className="max-w-4xl mx-auto text-center relative z-10">
+        <h2 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
+          Ne perds plus une seconde.
+        </h2>
+        
+        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
+          Les meilleurs chatters utilisent ChatFloww pour{" "}
+          <span className="bg-gradient-to-r from-primary-glow to-accent bg-clip-text text-transparent font-bold">
+            écraser la concurrence.
+          </span>
+        </p>
+        
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <Button 
+            onClick={scrollToPricing}
+            variant="hero"
+            size="lg"
+            className="px-12 py-6 text-xl font-bold"
+          >
+            Je m'abonne maintenant
+          </Button>
+          
+          <div className="text-primary-foreground/80 text-sm">
+            ⚡ Activation immédiate • 🔥 Résultats garantis
+          </div>
+        </div>
+        
+        {/* Testimonial style quote */}
+        <div className="mt-12 bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/20">
+          <blockquote className="text-lg text-primary-foreground/90 italic">
+            "Depuis que j'utilise ChatFloww, j'ai triplé mes revenus. 
+            Je gère 5x plus de clients avec moins d'effort."
+          </blockquote>
+          <div className="mt-4 text-primary-foreground/70">
+            — Sarah M., Top Chatter
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FinalCTA;
