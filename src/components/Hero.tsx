@@ -39,11 +39,12 @@ const Hero = () => {
           </Button>
           
           <Button 
-            variant="hero-outline"
+            variant="cta"
             size="lg"
-            className="px-8 py-6 text-lg"
+            className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
+            onClick={() => window.open("https://www.youtube.com/watch?v=DEMO-LINK", "_blank")}
           >
-            Voir la démo
+            ▶ Voir Démo
           </Button>
         </div>
         
