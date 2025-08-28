@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
-  const scrollToPricing = () => {
-    const pricingSection = document.getElementById('pricing');
-    pricingSection?.scrollIntoView({ behavior: 'smooth' });
+  const openDemo = () => {
+    window.open("https://www.youtube.com/watch?v=DEMO-LINK", "_blank");
   };
 
   return (
@@ -24,19 +23,15 @@ const FinalCTA = () => {
           </span>
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <div className="flex justify-center">
           <Button 
-            onClick={scrollToPricing}
-            variant="hero"
+            onClick={openDemo}
+            variant="cta"
             size="lg"
-            className="px-12 py-6 text-xl font-bold"
+            className="px-12 py-6 text-xl font-bold shadow-glow hover:shadow-glow"
           >
-            Je m'abonne maintenant
+            ▶ Voir la démo
           </Button>
-          
-          <div className="text-primary-foreground/80 text-sm">
-            ⚡ Activation immédiate • 🔥 Résultats garantis
-          </div>
         </div>
         
         {/* Testimonial style quote */}

@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-dashboard.jpg";
 
 const Hero = () => {
-  const scrollToPricing = () => {
-    const pricingSection = document.getElementById('pricing');
-    pricingSection?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button 
-            onClick={scrollToPricing}
+            onClick={scrollToContact}
             variant="hero"
             size="lg"
             className="px-8 py-6 text-lg"
