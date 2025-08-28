@@ -30,10 +30,10 @@ const Contact = () => {
         <div className="text-center mb-12">
           <Button 
             onClick={openWhatsApp}
-            className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 text-lg font-semibold rounded-2xl shadow-lg hover:shadow-green-500/30 transition-all duration-300"
+            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-8 text-xl font-bold rounded-3xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 animate-pulse hover:animate-none border-2 border-green-400/50"
             size="lg"
           >
-            <MessageCircle className="w-6 h-6 mr-3" />
+            <MessageCircle className="w-8 h-8 mr-4 animate-bounce" />
             Demandez votre essai gratuit avec accès illimité pendant 24H
           </Button>
         </div>
