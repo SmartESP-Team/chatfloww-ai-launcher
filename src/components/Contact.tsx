@@ -4,9 +4,9 @@ import { MessageCircle } from "lucide-react";
 const Contact = () => {
   const openWhatsApp = () => {
     // Remplace par ton numéro WhatsApp au format international
-    const phoneNumber = "+33123456789";
+    const phoneNumber = "+";
     const message = encodeURIComponent("Bonjour, je suis intéressé par ChatFloww et j'aimerais en savoir plus !");
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = `https://chat.whatsapp.com/GCeREoB6JJUCh9G6unkcru?mode=ems_share_t`;
     window.open(whatsappUrl, "_blank");
   };
 
