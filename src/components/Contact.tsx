@@ -19,11 +19,11 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Contactez-nous facilement
+            Rejoignez les chatter d’élite ! Contactez-nous maintenant ! 💥
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Vous avez des questions ou souhaitez en savoir plus sur ChatFloww ? 
-            Parlez-nous directement sur WhatsApp et obtenez une réponse rapide.
+            Prêt à passer au niveau supérieur sur ChatFloww ? WhatsApp nous et d
+            ébloquez votre premier accès gratuit pour intégrer les chatter d’élite ! 🔥⚡
           </p>
         </div>
         
@@ -41,7 +41,7 @@ const Contact = () => {
         {/* CTA Final */}
         <div className="bg-gradient-card p-12 rounded-3xl shadow-glow border border-primary/20 text-center">
           <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Ne perdez plus une seconde, boostez vos ventes avec ChatFloww.
+           Passez à ChatFloww et transformez vos efforts en beaux gains ! 💸🔥
           </h3>
           
           <Button 
