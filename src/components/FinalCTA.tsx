@@ -13,7 +13,7 @@ const FinalCTA = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
-          Ne perds plus une seconde.
+          Chaque détail compte… maximise ton CA dès maintenant ! ⚡💎
         </h2>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
@@ -37,8 +37,8 @@ const FinalCTA = () => {
         {/* Testimonial style quote */}
         <div className="mt-12 bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/20">
           <blockquote className="text-lg text-primary-foreground/90 italic">
-            "Depuis que j'utilise ChatFloww, j'ai triplé mes revenus. 
-            Je gère 5x plus de clients avec moins d'effort."
+            "Avec ChatFloww, je triple mon avance : mes phrases perso sont
+            toutes prêtes en un clic, et l’inspiration vient naturellement ! 🚀💎."
           </blockquote>
           <div className="mt-4 text-primary-foreground/70">
             — Sarah M., Top Chatter
