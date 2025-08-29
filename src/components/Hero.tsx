@@ -36,15 +36,7 @@ const Hero = () => {
           >
             {t('hero.cta1')}
           </Button>
-          
-          <Button 
-            variant="cta"
-            size="lg"
-            className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
-            onClick={() => window.open("https://www.youtube.com/watch?v=DEMO-LINK", "_blank")}
-          >
-            {t('hero.cta2')}
-          </Button>
+           
         </div>
         
         {/* Hero Image */}
