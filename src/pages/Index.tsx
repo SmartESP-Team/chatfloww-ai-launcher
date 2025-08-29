@@ -7,30 +7,27 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import RevenueAnimation from "@/components/RevenueAnimation";
-import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const Index = () => {
   return (
-    <LanguageProvider>
-      <div className="min-h-screen relative">
-        {/* Header */}
-        <Header />
-        
-        {/* Revenue Animation */}
-        <RevenueAnimation />
-        
-        {/* Main content with top padding for fixed header */}
-        <div className="pt-20">
-          <Hero />
-          <Features />
-          <HowItWorks />
-          <Testimonials />
-          <Contact />
-          <FinalCTA />
-          <Footer />
-        </div>
+    <div className="min-h-screen relative">
+      {/* Header */}
+      <Header />
+      
+      {/* Revenue Animation */}
+      <RevenueAnimation />
+      
+      {/* Main content with top padding for fixed header */}
+      <div className="pt-20">
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <Testimonials />
+        <Contact />
+        <FinalCTA />
+        <Footer />
       </div>
-    </LanguageProvider>
+    </div>
   );
 };
 
