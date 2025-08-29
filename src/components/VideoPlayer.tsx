@@ -8,11 +8,11 @@ interface VideoPlayerProps {
 
 const VideoPlayer = ({ videoUrl, placeholder = "Vidéo de démonstration à venir..." }: VideoPlayerProps) => {
   const { t } = useLanguage();
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
-  const handleThumbnailClick = () => {
+  const handleClick = () => {
     if (videoUrl) {
-      setIsVideoLoaded(true);
+      setIsVideoPlaying(true);
     }
   };
 
@@ -29,45 +29,34 @@ const VideoPlayer = ({ videoUrl, placeholder = "Vidéo de démonstration à veni
     );
   }
 
-  if (!isVideoLoaded) {
-    return (
-      <div className="w-full max-w-4xl mx-auto bg-gradient-card rounded-2xl p-4 border border-primary/20 shadow-glow">
-        <div 
-          className="relative aspect-video rounded-xl overflow-hidden cursor-pointer group"
-          onClick={handleThumbnailClick}
-        >
-          <img 
-            src="https://i.postimg.cc/YSXq0v1g/Ctrl-alt-P.png" 
-            alt="Aperçu de la vidéo"
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/40 transition-colors duration-300">
-            <div className="bg-white/90 rounded-full p-4 group-hover:bg-white transition-colors duration-300">
-              <svg 
-                className="w-8 h-8 text-black ml-1" 
-                fill="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z"/>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="w-full max-w-4xl mx-auto bg-gradient-card rounded-2xl p-4 border border-primary/20 shadow-glow">
-      <video 
-        controls 
-        autoPlay
-        className="w-full aspect-video rounded-xl"
-        poster="https://i.postimg.cc/YSXq0v1g/Ctrl-alt-P.png"
-      >
-        <source src={videoUrl} type="video/mp4" />
-        Votre navigateur ne supporte pas les vidéos HTML5.
-      </video>
+      {!isVideoPlaying ? (
+        <div
+          className="aspect-video rounded-xl overflow-hidden cursor-pointer relative"
+          onClick={handleClick}
+        >
+          <img
+            src="https://i.postimg.cc/YSXq0v1g/Ctrl-alt-P.png"
+            alt="Lecture vidéo"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <button className="bg-white/80 text-black px-4 py-2 rounded-full hover:bg-white">
+              ▶️ {t("Lecteur vidéo") || "Cliquez pour lire"}
+            </button>
+          </div>
+        </div>
+      ) : (
+        <video
+          controls
+          autoPlay
+          className="w-full aspect-video rounded-xl"
+        >
+          <source src={videoUrl} type="video/mp4" />
+          Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+      )}
     </div>
   );
 };
