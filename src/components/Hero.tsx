@@ -16,15 +16,15 @@ const Hero = () => {
       <div className="absolute bottom-40 right-20 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-pulse delay-1000" />
       
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-          Double ta vitesse de chatting,{" "}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
+          💬 Double ta vitesse de chatting,{" "}
           <span className="bg-gradient-to-r from-primary-glow to-accent bg-clip-text text-transparent">
-            Fais exploser tes PPV et engage chaque sub dans tes discussions!
+            fais exploser tes ventes ! 💰⚡
           </span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-          ChatFloww est l'outil ultime des chatters qui veulent répondre 2x plus vite, 
+        <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+          🚀 ChatFloww est l'outil ultime des chatters qui veulent répondre 2x plus vite, 
           gérer plus de conversations, et booster leurs ventes.
         </p>
         

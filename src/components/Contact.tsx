@@ -19,11 +19,11 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Rejoignez les chatter d’élite ! Contactez-nous maintenant ! 💥
+            Rejoignez les chatter d'élite ! Contactez-nous maintenant ! 💥
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Prêt à passer au niveau supérieur sur ChatFloww ? WhatsApp nous et d
-            ébloquez votre premier accès gratuit pour intégrer les chatter d’élite ! 🔥⚡
+            Prêt à passer au niveau supérieur sur ChatFloww ? WhatsApp nous et d
+            ébloquez votre premier accès gratuit pour intégrer les chatter d'élite ! 🔥⚡
           </p>
         </div>
         
@@ -45,19 +45,34 @@ const Contact = () => {
           </h3>
           
           <div className="text-center space-y-4">
-  <Button
-    onClick={() => window.open("/downloads/chatfloww-setup.exe", "_blank")} 
-    variant="cta"
-    size="lg"
-    className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
-  >
-    ⬇️ Télécharger ChatFloww
-  </Button>
-  <p className="text-sm text-muted-foreground">
-    Après le téléchargement, <span className="font-semibold">cliquez sur le bouton WhatsApp</span> 
-    pour valider votre accès et rejoindre les chatter d’élite 🚀
-  </p>
-</div>
+            <Button
+              onClick={() => window.open("/downloads/chatfloww-setup.exe", "_blank")} 
+              variant="cta"
+              size="lg"
+              className="px-12 py-8 text-xl font-bold shadow-glow hover:shadow-glow relative overflow-hidden group transform transition-all duration-300 hover:scale-105 animate-pulse hover:animate-none"
+            >
+              <span className="relative z-10 flex items-center gap-3">
+                <span className="text-2xl animate-bounce">⬇️</span>
+                Télécharger ChatFloww
+                <span className="text-2xl animate-bounce delay-150">💎</span>
+              </span>
+              
+              {/* Effet de vague au survol */}
+              <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-glow opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+              
+              {/* Particules brillantes */}
+              <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+                <div className="absolute w-2 h-2 bg-white/60 rounded-full animate-ping top-2 left-4" style={{ animationDelay: '0s' }} />
+                <div className="absolute w-1 h-1 bg-white/40 rounded-full animate-ping top-4 right-8" style={{ animationDelay: '0.5s' }} />
+                <div className="absolute w-1.5 h-1.5 bg-white/50 rounded-full animate-ping bottom-3 left-12" style={{ animationDelay: '1s' }} />
+              </div>
+            </Button>
+            
+            <p className="text-sm text-muted-foreground animate-fade-in">
+              Après le téléchargement, <span className="font-semibold text-primary">cliquez sur le bouton WhatsApp</span> 
+              pour valider votre accès et rejoindre les chatter d'élite 🚀
+            </p>
+          </div>
 
         </div>
       </div>
