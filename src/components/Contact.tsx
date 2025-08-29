@@ -48,7 +48,7 @@ const Contact = () => {
           
           <div className="text-center space-y-4">
             <Button
-              onClick={() => window.open("https://github.com/SmartESP-Team/chatfloww-ai-launcher/releases/download/v1.0/chatfloww.zip", "_blank")} 
+              onClick={() => window.open("https://bppuryte.mychariow.com/prd_vya04g", "_blank")} 
               variant="cta"
               size="lg"
               className="px-12 py-8 text-xl font-bold shadow-glow hover:shadow-glow relative overflow-hidden group transform transition-all duration-300 hover:scale-105"
