@@ -44,14 +44,21 @@ const Contact = () => {
            Passez à ChatFloww et transformez vos efforts en beaux gains ! 💸🔥
           </h3>
           
-          <Button 
-            onClick={openDemo}
-            variant="cta"
-            size="lg"
-            className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
-          >
-            ▶ Voir la démo
-          </Button>
+          <div className="text-center space-y-4">
+  <Button
+    onClick={() => window.open("/downloads/chatfloww-setup.exe", "_blank")} 
+    variant="cta"
+    size="lg"
+    className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
+  >
+    ⬇️ Télécharger ChatFloww
+  </Button>
+  <p className="text-sm text-muted-foreground">
+    Après le téléchargement, <span className="font-semibold">cliquez sur le bouton WhatsApp</span> 
+    pour valider votre accès et rejoindre les chatter d’élite 🚀
+  </p>
+</div>
+
         </div>
       </div>
     </section>
