@@ -26,7 +26,7 @@ const VideoPlayer = ({ videoUrl, placeholder = "Vidéo de démonstration à veni
       <video 
         controls 
         className="w-full aspect-video rounded-xl"
-        poster="/hero-dashboard.jpg"
+        poster="https://i.postimg.cc/YSXq0v1g/Ctrl-alt-P.png"
       >
         <source src={videoUrl} type="video/mp4" />
         Votre navigateur ne supporte pas les vidéos HTML5.
