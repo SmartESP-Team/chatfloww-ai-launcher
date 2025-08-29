@@ -20,7 +20,7 @@ const Footer = () => {
                   href="mailto:support@chatfloww.com" 
                   className="text-background/80 hover:text-background transition-colors"
                 >
-                  support@chatfloww.com
+                  smartespservices@gmail.com
                 </a>
               </li>
               <li>
