@@ -67,10 +67,10 @@ const translations: Translations = {
     DE: 'Bereit, bei ChatFloww aufzusteigen? WhatsApp uns und schalte deinen ersten kostenlosen Zugang frei, um den Elite-Chattern beizutreten! 🔥⚡'
   },
   'contact.whatsapp': {
-    FR: 'Demandez votre essai gratuit avec accès illimité pendant 24H',
-    EN: 'Request your free trial with unlimited access for 24H',
-    ES: 'Solicita tu prueba gratuita con acceso ilimitado por 24H',
-    DE: 'Fordern Sie Ihre kostenlose Testversion mit unbegrenztem Zugang für 24H an'
+    FR: 'Assistance guidée 24H/24 durant toute la période d\'essai gratuit',
+    EN: 'Guided assistance 24/7 throughout the entire free trial period',
+    ES: 'Asistencia guiada 24/7 durante todo el período de prueba gratuito',
+    DE: 'Geführte Hilfe 24/7 während der gesamten kostenlosen Testphase'
   },
   'contact.cta.title': {
     FR: 'Passez à ChatFloww et transformez vos efforts en beaux gains ! 💸🔥',
@@ -79,10 +79,10 @@ const translations: Translations = {
     DE: 'Wechseln Sie zu ChatFloww und verwandeln Sie Ihre Bemühungen in schöne Gewinne! 💸🔥'
   },
   'contact.download': {
-    FR: 'Télécharger ChatFloww',
-    EN: 'Download ChatFloww',
-    ES: 'Descargar ChatFloww',
-    DE: 'ChatFloww herunterladen'
+    FR: 'Télécharger ChatFloww Gratuit',
+    EN: 'Download ChatFloww Free',
+    ES: 'Descargar ChatFloww Gratis',
+    DE: 'ChatFloww Kostenlos herunterladen'
   },
   'contact.download.note': {
     FR: 'Après le téléchargement, cliquez sur le bouton WhatsApp pour valider votre accès et rejoindre les chatter d\'élite 🚀',

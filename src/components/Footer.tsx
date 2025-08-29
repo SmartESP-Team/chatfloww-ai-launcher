@@ -39,7 +39,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="border-t border-background/20 pt-8 text-center text-background/80">
-          <p>&copy; 2024 ChatFloww. Tous droits réservés.</p>
+          <p>&copy; 2025 ChatFloww – Tous droits réservés. Toute copie ou reproduction entraînera des poursuites.</p>
           <p className="mt-2 text-sm">
             Boostez vos conversations, multipliez vos revenus.
           </p>

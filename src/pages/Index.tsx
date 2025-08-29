@@ -7,6 +7,8 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import RevenueAnimation from "@/components/RevenueAnimation";
+import VideoPlayer from "@/components/VideoPlayer";
+import PrivacyPolicy from "@/components/PrivacyPolicy";
 
 const Index = () => {
   return (
@@ -20,11 +22,15 @@ const Index = () => {
       {/* Main content with top padding for fixed header */}
       <div className="pt-20">
         <Hero />
+        <div className="py-20 px-6 bg-background">
+          <VideoPlayer />
+        </div>
         <Features />
         <HowItWorks />
         <Testimonials />
         <Contact />
         <FinalCTA />
+        <PrivacyPolicy />
         <Footer />
       </div>
     </div>
