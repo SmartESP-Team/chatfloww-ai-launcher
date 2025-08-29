@@ -24,14 +24,7 @@ const FinalCTA = () => {
         </p>
         
         <div className="flex justify-center">
-          <Button 
-            onClick={openDemo}
-            variant="cta"
-            size="lg"
-            className="px-12 py-6 text-xl font-bold shadow-glow hover:shadow-glow"
-          >
-            ▶ Voir la démo
-          </Button>
+        
         </div>
         
         {/* Testimonial style quote */}
