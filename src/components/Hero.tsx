@@ -51,7 +51,7 @@ const Hero = () => {
         {/* Hero Image */}
         <div className="mb-12 max-w-4xl mx-auto">
           <img 
-            src="https://i.postimg.cc/nVjwmW03/Green-and-Yellow-Playful-Illustrative-What-are-the-parts-of-a-Plant-Presentation-4.png" 
+            src="https://i.postimg.cc/nVjwmW03/Green-and-Yellow-Playful-Illustrative-What-are-the-parts-of-a-Plant-Presentation-4.png"
             alt="Interface ChatFloww - Tableau de bord moderne avec conversations et réponses rapides"
             className="rounded-2xl shadow-hero border border-primary-foreground/20 w-full"
           />
