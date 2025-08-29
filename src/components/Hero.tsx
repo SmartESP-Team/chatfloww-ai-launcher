@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-dashboard.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Hero = () => {
+  const { t } = useLanguage();
+  
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
     contactSection?.scrollIntoView({ behavior: 'smooth' });
@@ -17,15 +20,11 @@ const Hero = () => {
       
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
-          💬 Double ta vitesse de chatting,{" "}
-          <span className="bg-gradient-to-r from-primary-glow to-accent bg-clip-text text-transparent">
-            fais exploser tes ventes ! 💰⚡
-          </span>
+          {t('hero.title')}
         </h1>
         
         <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-          🚀 ChatFloww est l'outil ultime des chatters qui veulent répondre 2x plus vite, 
-          gérer plus de conversations, et booster leurs ventes.
+          {t('hero.subtitle')}
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -35,7 +34,7 @@ const Hero = () => {
             size="lg"
             className="px-8 py-6 text-lg"
           >
-            Commence maintenant
+            {t('hero.cta1')}
           </Button>
           
           <Button 
@@ -44,7 +43,7 @@ const Hero = () => {
             className="px-8 py-6 text-lg shadow-glow hover:shadow-glow"
             onClick={() => window.open("https://www.youtube.com/watch?v=DEMO-LINK", "_blank")}
           >
-            ▶ Voir Démo
+            {t('hero.cta2')}
           </Button>
         </div>
         
@@ -61,15 +60,15 @@ const Hero = () => {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-primary-foreground">
           <div className="text-center">
             <div className="text-3xl font-bold mb-2">2x</div>
-            <div className="text-primary-foreground/80">Plus rapide</div>
+            <div className="text-primary-foreground/80">{t('hero.stat1')}</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold mb-2">3-4x + $$$💰</div>
-            <div className="text-primary-foreground/80">Dégain en 1 sec, boom, résultats ! ⚡</div>
+            <div className="text-primary-foreground/80">{t('hero.stat2')}</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold mb-2">10.0000+</div>
-            <div className="text-primary-foreground/80">Pour un stockage casi illimité</div>
+            <div className="text-primary-foreground/80">{t('hero.stat3')}</div>
           </div>
         </div>
       </div>

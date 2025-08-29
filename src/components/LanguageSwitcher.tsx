@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
 import {
@@ -7,21 +6,20 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const LanguageSwitcher = () => {
-  const [currentLanguage, setCurrentLanguage] = useState("FR");
+  const { currentLanguage, setLanguage } = useLanguage();
   
   const languages = [
-    { code: "FR", name: "Français", flag: "🇫🇷" },
-    { code: "EN", name: "English", flag: "🇺🇸" },
-    { code: "ES", name: "Español", flag: "🇪🇸" },
-    { code: "DE", name: "Deutsch", flag: "🇩🇪" }
+    { code: "FR" as const, name: "Français", flag: "🇫🇷" },
+    { code: "EN" as const, name: "English", flag: "🇺🇸" },
+    { code: "ES" as const, name: "Español", flag: "🇪🇸" },
+    { code: "DE" as const, name: "Deutsch", flag: "🇩🇪" }
   ];
 
-  const handleLanguageChange = (langCode: string) => {
-    setCurrentLanguage(langCode);
-    // Ici tu peux ajouter la logique de traduction
-    console.log(`Language changed to: ${langCode}`);
+  const handleLanguageChange = (langCode: "FR" | "EN" | "ES" | "DE") => {
+    setLanguage(langCode);
   };
 
   return (

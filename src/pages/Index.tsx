@@ -5,28 +5,32 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import Header from "@/components/Header";
 import RevenueAnimation from "@/components/RevenueAnimation";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const Index = () => {
   return (
-    <div className="min-h-screen relative">
-      {/* Language Switcher */}
-      <div className="fixed top-4 right-4 z-50">
-        <LanguageSwitcher />
+    <LanguageProvider>
+      <div className="min-h-screen relative">
+        {/* Header */}
+        <Header />
+        
+        {/* Revenue Animation */}
+        <RevenueAnimation />
+        
+        {/* Main content with top padding for fixed header */}
+        <div className="pt-20">
+          <Hero />
+          <Features />
+          <HowItWorks />
+          <Testimonials />
+          <Contact />
+          <FinalCTA />
+          <Footer />
+        </div>
       </div>
-      
-      {/* Revenue Animation */}
-      <RevenueAnimation />
-      
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <Testimonials />
-      <Contact />
-      <FinalCTA />
-      <Footer />
-    </div>
+    </LanguageProvider>
   );
 };
 

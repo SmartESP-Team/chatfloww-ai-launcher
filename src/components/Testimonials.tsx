@@ -1,23 +1,23 @@
 import { Star } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Testimonials = () => {
+  const { t } = useLanguage();
+  
   const testimonials = [
     {
-      text: "Avec ChatFloww, j'ai vendu 3 médias en un rien de temps ! Mon texte est bien organisé et je gagne en clarté. 💸",
-      author: "Sarah L.",
-      role: "créatrice de contenu",
+      text: t('testimonial1.text'),
+      author: t('testimonial1.author'),
       rating: 5
     },
     {
-      text: "Depuis que j'utilise ChatFloww, j'ai doublé ma vitesse de réponse. Je garde mes subs engagés sans stresser. ⚡",
-      author: "Kevin M.",
-      role: "chatter indépendant",
+      text: t('testimonial2.text'),
+      author: t('testimonial2.author'), 
       rating: 5
     },
     {
-      text: "Grâce à ChatFloww, je gère mes phrases en un clic et j'évite que mon manager me mette la pression. 🚀",
-      author: "Julie R.",
-      role: "modèle créatrice",
+      text: t('testimonial3.text'),
+      author: t('testimonial3.author'),
       rating: 5
     }
   ];
@@ -56,9 +56,6 @@ const Testimonials = () => {
               <div className="border-t border-primary/10 pt-4">
                 <div className="font-semibold text-primary">
                   {testimonial.author}
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  {testimonial.role}
                 </div>
               </div>
             </div>
