@@ -32,12 +32,39 @@ const Contact = () => {
         <div className="text-center mb-12">
           <Button 
             onClick={openWhatsApp}
-            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-8 text-xl font-bold rounded-3xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 animate-pulse hover:animate-none border-2 border-green-400/50"
+            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-8 text-xl font-bold rounded-3xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 border-2 border-green-400/50"
             size="lg"
           >
-            <MessageCircle className="w-8 h-8 mr-4 animate-bounce" />
+            <MessageCircle className="w-8 h-8 mr-4" />
             {t('contact.whatsapp')}
           </Button>
+        </div>
+
+        {/* Product Details */}
+        <div className="bg-gradient-card p-8 rounded-3xl shadow-glow border border-primary/20 mb-8">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4 text-center">
+            {t('contact.product.title')}
+          </h3>
+          
+          <p className="text-lg text-primary font-semibold mb-4 text-center">
+            {t('contact.product.subtitle')}
+          </p>
+          
+          <div className="space-y-3 mb-6">
+            <p className="text-foreground font-medium">{t('contact.product.feature1')}</p>
+            <p className="text-foreground font-medium">{t('contact.product.feature2')}</p>
+            <div className="ml-6 space-y-2">
+              <p className="text-muted-foreground">{t('contact.product.script1')}</p>
+              <p className="text-muted-foreground">{t('contact.product.script2')}</p>
+              <p className="text-muted-foreground">{t('contact.product.script3')}</p>
+            </div>
+          </div>
+          
+          <div className="bg-green-500/10 border border-green-500/30 rounded-2xl p-4 mb-6">
+            <p className="text-green-400 font-semibold text-center">
+              {t('contact.guarantee')}
+            </p>
+          </div>
         </div>
 
         {/* CTA Final */}

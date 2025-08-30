@@ -93,6 +93,55 @@ const translations: Translations = {
     DE: 'Nach dem Download klicken Sie auf die WhatsApp-Schaltfläche, um Ihren Zugang zu validieren und den Elite-Chattern beizutreten 🚀'
   },
 
+  'contact.product.title': {
+    FR: '💎 ChatFloww-v1.0 – Ton Arme Secrète de Chat',
+    EN: '💎 ChatFloww-v1.0 – Your Secret Chat Weapon',
+    ES: '💎 ChatFloww-v1.0 – Tu Arma Secreta de Chat',
+    DE: '💎 ChatFloww-v1.0 – Deine Geheime Chat-Waffe'
+  },
+  'contact.product.subtitle': {
+    FR: '✨ Un seul paiement → 12 mois d\'accès illimité :',
+    EN: '✨ One payment → 12 months of unlimited access:',
+    ES: '✨ Un solo pago → 12 meses de acceso ilimitado:',
+    DE: '✨ Eine Zahlung → 12 Monate unbegrenzter Zugang:'
+  },
+  'contact.product.feature1': {
+    FR: '✅ Créez +5000 tabs gratuitement',
+    EN: '✅ Create +5000 tabs for free',
+    ES: '✅ Crea +5000 pestañas gratis',
+    DE: '✅ Erstelle +5000 Tabs kostenlos'
+  },
+  'contact.product.feature2': {
+    FR: '✅ Accédez à des scripts normalement payants déjà validés :',
+    EN: '✅ Access normally paid validated scripts:',
+    ES: '✅ Accede a scripts normalmente pagos ya validados:',
+    DE: '✅ Zugang zu normalerweise kostenpflichtigen, validierten Skripten:'
+  },
+  'contact.product.script1': {
+    FR: '🔥 PPV à 50% de conversion',
+    EN: '🔥 PPV with 50% conversion',
+    ES: '🔥 PPV con 50% de conversión',
+    DE: '🔥 PPV mit 50% Konversion'
+  },
+  'contact.product.script2': {
+    FR: '🔥 Upsells à 80$',
+    EN: '🔥 $80 Upsells',
+    ES: '🔥 Upsells de $80',
+    DE: '🔥 $80 Upsells'
+  },
+  'contact.product.script3': {
+    FR: '🔥 Réponses aux objections toutes prêtes',
+    EN: '🔥 Ready-made objection responses',
+    ES: '🔥 Respuestas a objeciones listas',
+    DE: '🔥 Fertige Einwand-Antworten'
+  },
+  'contact.guarantee': {
+    FR: '🛡️ Garantie satisfait ou remboursé jusqu\'à 70% sans question ni procédure compliquée',
+    EN: '🛡️ Satisfaction guarantee or up to 70% refund without questions or complicated procedures',
+    ES: '🛡️ Garantía de satisfacción o reembolso hasta 70% sin preguntas ni procedimientos complicados',
+    DE: '🛡️ Zufriedenheitsgarantie oder bis zu 70% Rückerstattung ohne Fragen oder komplizierte Verfahren'
+  },
+
   // Testimonials
   'testimonial1.text': {
     FR: 'Avec ChatFloww, j\'ai vendu 3 médias en un rien de temps ! Mon texte est bien organisé et je gagne en clarté. 💸',
