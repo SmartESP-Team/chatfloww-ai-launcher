@@ -142,6 +142,32 @@ const translations: Translations = {
     DE: '🛡️ Zufriedenheitsgarantie oder bis zu 70% Rückerstattung ohne Fragen oder komplizierte Verfahren'
   },
 
+  // Team Message
+  'team.title': {
+    FR: '💎 Un mot de l\'équipe ChatFloww 💎',
+    EN: '💎 A word from the ChatFloww team 💎',
+    ES: '💎 Una palabra del equipo ChatFloww 💎',
+    DE: '💎 Ein Wort vom ChatFloww-Team 💎'
+  },
+  'team.message1': {
+    FR: 'On sait à quel point gérer des dizaines de conversations peut être épuisant 😮‍💨… C\'est pour ça que ChatFloww a déjà aidé des chatters comme toi à reprendre le contrôle, cartonner leurs ventes et respirer enfin sans stress. 🚀',
+    EN: 'We know how exhausting managing dozens of conversations can be 😮‍💨… That\'s why ChatFloww has already helped chatters like you regain control, crush their sales and finally breathe without stress. 🚀',
+    ES: 'Sabemos lo agotador que puede ser gestionar docenas de conversaciones 😮‍💨… Por eso ChatFloww ya ha ayudado a chatters como tú a retomar el control, arrasar en ventas y finalmente respirar sin estrés. 🚀',
+    DE: 'Wir wissen, wie erschöpfend es sein kann, Dutzende von Gesprächen zu führen 😮‍💨… Deshalb hat ChatFloww bereits Chattern wie dir geholfen, die Kontrolle zurückzugewinnen, ihre Verkäufe zu steigern und endlich stressfrei zu atmen. 🚀'
+  },
+  'team.message2': {
+    FR: 'Ici, pas de pression inutile : tu bosses plus vite, tu gagnes plus, et tu gardes ton énergie pour ce qui compte vraiment. 💬✨',
+    EN: 'Here, no unnecessary pressure: you work faster, earn more, and keep your energy for what really matters. 💬✨',
+    ES: 'Aquí, sin presión innecesaria: trabajas más rápido, ganas más, y guardas tu energía para lo que realmente importa. 💬✨',
+    DE: 'Hier, kein unnötiger Druck: Du arbeitest schneller, verdienst mehr und sparst deine Energie für das, was wirklich zählt. 💬✨'
+  },
+  'team.message3': {
+    FR: 'Et si tu as la moindre question, l\'équipe est toujours là pour toi. ❤️',
+    EN: 'And if you have any questions, the team is always there for you. ❤️',
+    ES: 'Y si tienes alguna pregunta, el equipo siempre está ahí para ti. ❤️',
+    DE: 'Und wenn du Fragen hast, ist das Team immer für dich da. ❤️'
+  },
+
   // Testimonials
   'testimonial1.text': {
     FR: 'Avec ChatFloww, j\'ai vendu 3 médias en un rien de temps ! Mon texte est bien organisé et je gagne en clarté. 💸',

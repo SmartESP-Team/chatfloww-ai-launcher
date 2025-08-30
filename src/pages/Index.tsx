@@ -9,6 +9,7 @@ import Header from "@/components/Header";
 import RevenueAnimation from "@/components/RevenueAnimation";
 import VideoPlayer from "@/components/VideoPlayer";
 import PrivacyPolicy from "@/components/PrivacyPolicy";
+import TeamMessage from "@/components/TeamMessage";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
         <Features />
         <HowItWorks />
         <Testimonials />
+        <TeamMessage />
         <Contact />
         <FinalCTA />
         <PrivacyPolicy />
