@@ -1,10 +1,9 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-
 const PrivacyPolicy = () => {
-  const { t } = useLanguage();
-
-  return (
-    <section id="privacy" className="py-20 px-6 bg-muted/30">
+  const {
+    t
+  } = useLanguage();
+  return <section id="privacy" className="py-20 px-6 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -15,10 +14,7 @@ const PrivacyPolicy = () => {
         <div className="bg-card rounded-2xl p-8 shadow-lg border border-border space-y-8">
           <div>
             <h3 className="text-xl font-bold text-foreground mb-4">Propriété intellectuelle</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              L'outil ChatFloww, son nom, son logo, son interface et l'ensemble de ses fonctionnalités sont protégés par les lois en vigueur sur le droit d'auteur et la propriété intellectuelle.
-              Toute reproduction, distribution, modification ou utilisation non autorisée de ChatFloww, en totalité ou en partie, est strictement interdite sans l'accord écrit de [Ton Nom / Ton Entreprise].
-            </p>
+            <p className="text-muted-foreground leading-relaxed">L'outil ChatFloww, son nom, son logo, son interface et l'ensemble de ses fonctionnalités sont protégés par les lois en vigueur sur le droit d'auteur et la propriété intellectuelle. Toute reproduction, distribution, modification ou utilisation non autorisée de ChatFloww, en totalité ou en partie, est strictement interdite sans l'accord écrit de on Nom du CEO de ChatFloww.</p>
           </div>
 
           <div>
@@ -54,8 +50,6 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PrivacyPolicy;
