@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeSwitcher from "./ThemeSwitcher";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Header = () => {
@@ -39,6 +40,7 @@ const Header = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-4">
+          <ThemeSwitcher />
           <LanguageSwitcher />
           <Button 
             onClick={scrollToContact}
