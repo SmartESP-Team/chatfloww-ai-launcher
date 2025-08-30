@@ -33,14 +33,21 @@ const TeamMessage = () => {
             {t('team.title')}
           </h2>
           
-          <div className="flex justify-center mb-8 space-x-4">
+          <div className="flex justify-center mb-8 space-x-6">
             {teamMembers.map((member, index) => (
-              <Avatar key={index} className="w-16 h-16 border-2 border-primary/20">
-                <AvatarImage src={member.image} alt={member.name} />
-                <AvatarFallback className="bg-primary/10 text-primary font-semibold">
-                  {member.fallback}
-                </AvatarFallback>
-              </Avatar>
+              <div key={index} className="flex flex-col items-center space-y-2">
+                <Avatar className="w-20 h-20 md:w-24 md:h-24 border-3 border-primary/30 shadow-lg ring-2 ring-primary/20 transition-transform hover:scale-105">
+                  <AvatarImage 
+                    src={member.image} 
+                    alt={`Photo de profil de ${member.name}`} 
+                    className="object-cover object-center"
+                  />
+                  <AvatarFallback className="bg-gradient-to-br from-primary/20 to-primary/10 text-primary font-bold text-lg">
+                    {member.fallback}
+                  </AvatarFallback>
+                </Avatar>
+                <span className="text-sm font-medium text-foreground/80">{member.name}</span>
+              </div>
             ))}
           </div>
           
