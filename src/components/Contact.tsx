@@ -7,10 +7,10 @@ const Contact = () => {
   
   const openWhatsApp = () => {
     // Remplace par ton numéro WhatsApp au format international
-    const phoneNumber = "+";
-    const message = encodeURIComponent("Bonjour, je suis intéressé par ChatFloww et j'aimerais en savoir plus !");
-    const whatsappUrl = `https://chat.whatsapp.com/GCeREoB6JJUCh9G6unkcru?mode=ems_share_t`;
-    window.open(whatsappUrl, "_blank");
+ const phoneNumber = "212669396310"; // e.g., "1234567890"
+const message = encodeURIComponent("Bonjour, je suis intéressé par ChatFloww et j'aimerais en savoir plus !");
+const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+window.open(whatsappUrl, "_blank");
   };
 
   const openDemo = () => {
