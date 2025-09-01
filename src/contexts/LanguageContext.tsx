@@ -204,6 +204,44 @@ const translations: Translations = {
     EN: 'Julie R., model creator',
     ES: 'Julie R., modelo creadora',
     DE: 'Julie R., Model-Erstellerin'
+  },
+
+  // FAQ Section
+  'faq.title': {
+    FR: '❓ Questions Fréquentes',
+    EN: '❓ Frequently Asked Questions',
+    ES: '❓ Preguntas Frecuentes',
+    DE: '❓ Häufig gestellte Fragen'
+  },
+  'faq.subtitle': {
+    FR: 'Trouvez rapidement les réponses à vos questions sur ChatFloww',
+    EN: 'Quickly find answers to your questions about ChatFloww',
+    ES: 'Encuentra rápidamente las respuestas a tus preguntas sobre ChatFloww',
+    DE: 'Finden Sie schnell Antworten auf Ihre Fragen zu ChatFloww'
+  },
+  'faq.question1': {
+    FR: 'Est-ce que ChatFloww fonctionne avec mes plateformes actuelles ?',
+    EN: 'Does ChatFloww work with my current platforms?',
+    ES: '¿ChatFloww funciona con mis plataformas actuales?',
+    DE: 'Funktioniert ChatFloww mit meinen aktuellen Plattformen?'
+  },
+  'faq.answer1': {
+    FR: 'Oui ! ChatFloww est compatible avec les logiciels de chatting comme Infloww, Reveal, MYM, Mymic, ainsi que sur Discord et Questions Fréquentes',
+    EN: 'Yes! ChatFloww is compatible with chatting software like Infloww, Reveal, MYM, Mymic, as well as Discord and Frequently Asked Questions',
+    ES: '¡Sí! ChatFloww es compatible con software de chat como Infloww, Reveal, MYM, Mymic, así como Discord y Preguntas Frecuentes',
+    DE: 'Ja! ChatFloww ist kompatibel mit Chat-Software wie Infloww, Reveal, MYM, Mymic, sowie Discord und häufig gestellte Fragen'
+  },
+  'faq.question2': {
+    FR: 'Puis-je installer ChatFloww tout seul ?',
+    EN: 'Can I install ChatFloww by myself?',
+    ES: '¿Puedo instalar ChatFloww yo solo?',
+    DE: 'Kann ich ChatFloww selbst installieren?'
+  },
+  'faq.answer2': {
+    FR: 'Oui, c\'est très simple. Après le téléchargement, une assistante vous contacte directement et vous accompagne pas à pas pour la mise en place. Telegram.',
+    EN: 'Yes, it\'s very simple. After downloading, an assistant contacts you directly and guides you step by step through the setup. Telegram.',
+    ES: 'Sí, es muy simple. Después de la descarga, una asistente te contacta directamente y te acompaña paso a paso para la configuración. Telegram.',
+    DE: 'Ja, es ist sehr einfach. Nach dem Download kontaktiert Sie eine Assistentin direkt und begleitet Sie Schritt für Schritt bei der Einrichtung. Telegram.'
   }
 };
 
