@@ -226,10 +226,10 @@ const translations: Translations = {
     DE: 'Funktioniert ChatFloww mit meinen aktuellen Plattformen?'
   },
   'faq.answer1': {
-    FR: 'Oui ! ChatFloww est compatible avec les logiciels de chatting comme Infloww, Reveal, MYM, Mymic, ainsi que sur Discord et Questions Fréquentes',
-    EN: 'Yes! ChatFloww is compatible with chatting software like Infloww, Reveal, MYM, Mymic, as well as Discord and Frequently Asked Questions',
-    ES: '¡Sí! ChatFloww es compatible con software de chat como Infloww, Reveal, MYM, Mymic, así como Discord y Preguntas Frecuentes',
-    DE: 'Ja! ChatFloww ist kompatibel mit Chat-Software wie Infloww, Reveal, MYM, Mymic, sowie Discord und häufig gestellte Fragen'
+    FR: 'Absolument ! 🚀 ChatFloww s\'intègre parfaitement avec tous les logiciels de chatting populaires : Infloww, Reveal, MYM, Mymic, et même Discord. Notre technologie s\'adapte automatiquement à votre environnement de travail pour une expérience fluide et sans interruption.',
+    EN: 'Absolutely! 🚀 ChatFloww integrates perfectly with all popular chatting software: Infloww, Reveal, MYM, Mymic, and even Discord. Our technology automatically adapts to your work environment for a smooth, uninterrupted experience.',
+    ES: '¡Absolutamente! 🚀 ChatFloww se integra perfectamente con todo el software de chat popular: Infloww, Reveal, MYM, Mymic, e incluso Discord. Nuestra tecnología se adapta automáticamente a tu entorno de trabajo para una experiencia fluida e ininterrumpida.',
+    DE: 'Absolut! 🚀 ChatFloww integriert sich perfekt mit allen beliebten Chat-Software: Infloww, Reveal, MYM, Mymic und sogar Discord. Unsere Technologie passt sich automatisch an Ihre Arbeitsumgebung an für eine reibungslose, ununterbrochene Erfahrung.'
   },
   'faq.question2': {
     FR: 'Puis-je installer ChatFloww tout seul ?',
@@ -238,10 +238,10 @@ const translations: Translations = {
     DE: 'Kann ich ChatFloww selbst installieren?'
   },
   'faq.answer2': {
-    FR: 'Oui, c\'est très simple. Après le téléchargement, une assistante vous contacte directement et vous accompagne pas à pas pour la mise en place. Telegram.',
-    EN: 'Yes, it\'s very simple. After downloading, an assistant contacts you directly and guides you step by step through the setup. Telegram.',
-    ES: 'Sí, es muy simple. Después de la descarga, una asistente te contacta directamente y te acompaña paso a paso para la configuración. Telegram.',
-    DE: 'Ja, es ist sehr einfach. Nach dem Download kontaktiert Sie eine Assistentin direkt und begleitet Sie Schritt für Schritt bei der Einrichtung. Telegram.'
+    FR: 'C\'est un jeu d\'enfant ! 😎 L\'installation se fait en quelques clics seulement. Dès que vous téléchargez ChatFloww, notre équipe d\'assistance dédiée vous contacte immédiatement via Telegram pour un accompagnement personnalisé. Vous serez opérationnel en moins de 10 minutes !',
+    EN: 'It\'s a breeze! 😎 Installation takes just a few clicks. As soon as you download ChatFloww, our dedicated support team contacts you immediately via Telegram for personalized guidance. You\'ll be up and running in under 10 minutes!',
+    ES: '¡Es pan comido! 😎 La instalación toma solo unos clics. Tan pronto como descargas ChatFloww, nuestro equipo de soporte dedicado te contacta inmediatamente vía Telegram para orientación personalizada. ¡Estarás funcionando en menos de 10 minutos!',
+    DE: 'Das ist kinderleicht! 😎 Die Installation dauert nur wenige Klicks. Sobald Sie ChatFloww herunterladen, kontaktiert Sie unser engagiertes Support-Team sofort über Telegram für persönliche Anleitung. Sie sind in unter 10 Minuten einsatzbereit!'
   }
 };
 
