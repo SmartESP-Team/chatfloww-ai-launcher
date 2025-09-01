@@ -1,16 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { Mail } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Contact = () => {
   const { t } = useLanguage();
   
-  const openGmail = () => {
-    const email = "smartespservices@gmail.com";
-    const subject = encodeURIComponent("Demande d'information - ChatFloww");
-    const body = encodeURIComponent("Bonjour,\n\nJe suis intéressé par ChatFloww et j'aimerais en savoir plus sur vos services.\n\nCordialement");
-    const gmailUrl = `mailto:${email}?subject=${subject}&body=${body}`;
-    window.open(gmailUrl, "_blank");
+  const openWhatsApp = () => {
+    // Remplace par ton numéro WhatsApp au format international
+ const phoneNumber = "212669396310"; // e.g., "1234567890"
+const message = encodeURIComponent("Bonjour, je suis intéressé par ChatFloww et j'aimerais en savoir plus !");
+const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+window.open(whatsappUrl, "_blank");
   };
 
   const openDemo = () => {
@@ -31,12 +31,12 @@ const Contact = () => {
         
         <div className="text-center mb-12">
           <Button 
-            onClick={openGmail}
-            className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-12 py-8 text-xl font-bold rounded-3xl shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105 border-2 border-red-400/50"
+            onClick={openWhatsApp}
+            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-8 text-xl font-bold rounded-3xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 border-2 border-green-400/50"
             size="lg"
           >
-            <Mail className="w-8 h-8 mr-4" />
-            {t('contact.gmail')}
+            <MessageCircle className="w-8 h-8 mr-4" />
+            {t('contact.whatsapp')}
           </Button>
         </div>
 
