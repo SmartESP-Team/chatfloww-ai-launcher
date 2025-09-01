@@ -238,10 +238,10 @@ const translations: Translations = {
     DE: 'Kann ich ChatFloww selbst installieren?'
   },
   'faq.answer2': {
-    FR: 'C\'est un jeu d\'enfant ! 😎 L\'installation se fait en quelques clics seulement. Dès que vous téléchargez ChatFloww, notre équipe d\'assistance dédiée vous contacte immédiatement via Telegram pour un accompagnement personnalisé. Vous serez opérationnel en moins de 10 minutes !',
-    EN: 'It\'s a breeze! 😎 Installation takes just a few clicks. As soon as you download ChatFloww, our dedicated support team contacts you immediately via Telegram for personalized guidance. You\'ll be up and running in under 10 minutes!',
-    ES: '¡Es pan comido! 😎 La instalación toma solo unos clics. Tan pronto como descargas ChatFloww, nuestro equipo de soporte dedicado te contacta inmediatamente vía Telegram para orientación personalizada. ¡Estarás funcionando en menos de 10 minutos!',
-    DE: 'Das ist kinderleicht! 😎 Die Installation dauert nur wenige Klicks. Sobald Sie ChatFloww herunterladen, kontaktiert Sie unser engagiertes Support-Team sofort über Telegram für persönliche Anleitung. Sie sind in unter 10 Minuten einsatzbereit!'
+    FR: 'C\'est un jeu d\'enfant ! 😎 L\'installation se fait en quelques clics seulement. Dès que vous téléchargez ChatFloww, notre équipe d\'assistance dédiée vous contacte immédiatement ( whatsapp, Gmail ) pour un accompagnement personnalisé. Vous serez opérationnel en moins de 10 minutes !',
+    EN: 'It\'s a breeze! 😎 Installation takes just a few clicks. As soon as you download ChatFloww, our dedicated support team contacts you immediately ( whatsapp ,Gmail ) for personalized guidance. You\'ll be up and running in under 10 minutes!',
+    ES: '¡Es pan comido! 😎 La instalación toma solo unos clics. Tan pronto como descargas ChatFloww, nuestro equipo de soporte dedicado te contacta inmediatamente ( whatsapp ,Gmail ) para orientación personalizada. ¡Estarás funcionando en menos de 10 minutos!',
+    DE: 'Das ist kinderleicht! 😎 Die Installation dauert nur wenige Klicks. Sobald Sie ChatFloww herunterladen, kontaktiert Sie unser engagiertes Support-Team sofort über( whatsapp ,Gmail ) für persönliche Anleitung. Sie sind in unter 10 Minuten einsatzbereit!'
   }
 };
 
