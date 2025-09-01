@@ -66,12 +66,12 @@ const translations: Translations = {
     ES: '¿Listo para subir de nivel en ChatFloww? ¡WhatsApp nos y desbloquea tu primer acceso gratuito para unirte a los chatters de élite! 🔥⚡',
     DE: 'Bereit, bei ChatFloww aufzusteigen? WhatsApp uns und schalte deinen ersten kostenlosen Zugang frei, um den Elite-Chattern beizutreten! 🔥⚡'
   },
- "contact.whatsapp": {
-  "FR": "Assistance gratuite 24H/7",
-  "EN": "Free assistance 24/7",
-  "ES": "Asistencia gratuita 24/7",
-  "DE": "Kostenlose Hilfe 24/7"
-},
+ "contact.gmail": {
+   "FR": "Contact Gmail 24H/7",
+   "EN": "Gmail Contact 24/7",
+   "ES": "Contacto Gmail 24/7",
+   "DE": "Gmail Kontakt 24/7"
+ },
 
   'contact.cta.title': {
     FR: 'Passez à ChatFloww et transformez vos efforts en beaux gains ! 💸🔥',
