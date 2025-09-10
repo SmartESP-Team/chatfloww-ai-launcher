@@ -27,11 +27,10 @@ const Testimonials = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            💬 Leur chatting n’a plus rien à voir avec le classique. 
+            {t('testimonials.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Désormais, il est structuré, rapide et performant.
-            Rejoignez des milliers de chatters qui transforment leurs résultats avec ChatFloww
+            {t('testimonials.subtitle')}
           </p>
         </div>
         

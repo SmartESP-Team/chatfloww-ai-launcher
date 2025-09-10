@@ -1,29 +1,32 @@
 import { Clock, DollarSign, BookOpen, Zap } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Features = () => {
+  const { t } = useLanguage();
+  
   const features = [
     {
       icon: Clock,
-      title: "Double la vitesse de chat",
-      description: "Réponds en 3 sec max, sans chercher tes phrases.",
+      title: t('features.speed.title'),
+      description: t('features.speed.description'),
       color: "text-primary"
     },
     {
       icon: DollarSign,
-      title: "Multiplie ton chiffre d'affaires (x3 à x4)",
-      description: "Plus de conversations = plus de ventes.",
+      title: t('features.revenue.title'),
+      description: t('features.revenue.description'),
       color: "text-accent"
     },
     {
       icon: BookOpen,
-      title: "Ta base perso de punchlines",
-      description: "Enregistre et réutilise les phrases qui vendent.",
+      title: t('features.punchlines.title'),
+      description: t('features.punchlines.description'),
       color: "text-primary"
     },
     {
       icon: Zap,
-      title: "Accès aux textes de pros",
-      description: "Profite d'un arsenal de messages éprouvés pour PPV & upsells.",
+      title: t('features.pro.title'),
+      description: t('features.pro.description'),
       color: "text-accent"
     }
   ];
@@ -33,10 +36,10 @@ const Features = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Pourquoi ChatFloww ?
+            {t('features.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Les outils qui font la différence entre un chatter amateur et un pro.
+            {t('features.subtitle')}
           </p>
         </div>
         

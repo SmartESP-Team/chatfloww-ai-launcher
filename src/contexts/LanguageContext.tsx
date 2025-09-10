@@ -242,6 +242,285 @@ const translations: Translations = {
     EN: 'It\'s a breeze! 😎 Installation takes just a few clicks. As soon as you download ChatFloww, our dedicated support team contacts you immediately ( whatsapp ,Gmail ) for personalized guidance. You\'ll be up and running in under 10 minutes!',
     ES: '¡Es pan comido! 😎 La instalación toma solo unos clics. Tan pronto como descargas ChatFloww, nuestro equipo de soporte dedicado te contacta inmediatamente ( whatsapp ,Gmail ) para orientación personalizada. ¡Estarás funcionando en menos de 10 minutos!',
     DE: 'Das ist kinderleicht! 😎 Die Installation dauert nur wenige Klicks. Sobald Sie ChatFloww herunterladen, kontaktiert Sie unser engagiertes Support-Team sofort über( whatsapp ,Gmail ) für persönliche Anleitung. Sie sind in unter 10 Minuten einsatzbereit!'
+  },
+
+  // Header Navigation
+  'nav.features': {
+    FR: 'Fonctionnalités',
+    EN: 'Features',
+    ES: 'Características',
+    DE: 'Funktionen'
+  },
+  'nav.howItWorks': {
+    FR: 'Comment ça marche',
+    EN: 'How it works',
+    ES: 'Cómo funciona',
+    DE: 'Wie es funktioniert'
+  },
+  'nav.testimonials': {
+    FR: 'Témoignages',
+    EN: 'Testimonials',
+    ES: 'Testimonios',
+    DE: 'Testimonials'
+  },
+  'nav.contact': {
+    FR: 'Contact',
+    EN: 'Contact',
+    ES: 'Contacto',
+    DE: 'Kontakt'
+  },
+
+  // Features Section
+  'features.title': {
+    FR: 'Pourquoi ChatFloww ?',
+    EN: 'Why ChatFloww?',
+    ES: '¿Por qué ChatFloww?',
+    DE: 'Warum ChatFloww?'
+  },
+  'features.subtitle': {
+    FR: 'Les outils qui font la différence entre un chatter amateur et un pro.',
+    EN: 'The tools that make the difference between an amateur chatter and a pro.',
+    ES: 'Las herramientas que marcan la diferencia entre un chatter amateur y un profesional.',
+    DE: 'Die Tools, die den Unterschied zwischen einem Amateur-Chatter und einem Profi ausmachen.'
+  },
+  'features.speed.title': {
+    FR: 'Double la vitesse de chat',
+    EN: 'Double chat speed',
+    ES: 'Duplica la velocidad de chat',
+    DE: 'Verdoppelt die Chat-Geschwindigkeit'
+  },
+  'features.speed.description': {
+    FR: 'Réponds en 3 sec max, sans chercher tes phrases.',
+    EN: 'Respond in 3 seconds max, without searching for your phrases.',
+    ES: 'Responde en 3 segundos máximo, sin buscar tus frases.',
+    DE: 'Antworte in maximal 3 Sekunden, ohne nach deinen Sätzen zu suchen.'
+  },
+  'features.revenue.title': {
+    FR: 'Multiplie ton chiffre d\'affaires (x3 à x4)',
+    EN: 'Multiply your revenue (x3 to x4)',
+    ES: 'Multiplica tu facturación (x3 a x4)',
+    DE: 'Multipliziere deinen Umsatz (x3 bis x4)'
+  },
+  'features.revenue.description': {
+    FR: 'Plus de conversations = plus de ventes.',
+    EN: 'More conversations = more sales.',
+    ES: 'Más conversaciones = más ventas.',
+    DE: 'Mehr Gespräche = mehr Verkäufe.'
+  },
+  'features.punchlines.title': {
+    FR: 'Ta base perso de punchlines',
+    EN: 'Your personal punchlines database',
+    ES: 'Tu base personal de punchlines',
+    DE: 'Deine persönliche Punchlines-Datenbank'
+  },
+  'features.punchlines.description': {
+    FR: 'Enregistre et réutilise les phrases qui vendent.',
+    EN: 'Save and reuse the phrases that sell.',
+    ES: 'Guarda y reutiliza las frases que venden.',
+    DE: 'Speichere und verwende Sätze wieder, die verkaufen.'
+  },
+  'features.pro.title': {
+    FR: 'Accès aux textes de pros',
+    EN: 'Access to pro texts',
+    ES: 'Acceso a textos de profesionales',
+    DE: 'Zugang zu Profi-Texten'
+  },
+  'features.pro.description': {
+    FR: 'Profite d\'un arsenal de messages éprouvés pour PPV & upsells.',
+    EN: 'Benefit from an arsenal of proven messages for PPV & upsells.',
+    ES: 'Aprovecha un arsenal de mensajes probados para PPV y upsells.',
+    DE: 'Profitiere von einem Arsenal bewährter Nachrichten für PPV & Upsells.'
+  },
+
+  // How It Works Section
+  'howItWorks.title': {
+    FR: 'ChatFloww leur fait exploser les ventes… et toi ? 🔥',
+    EN: 'ChatFloww makes their sales explode... what about you? 🔥',
+    ES: 'ChatFloww hace explotar sus ventas... ¿y tú? 🔥',
+    DE: 'ChatFloww lässt ihre Verkäufe explodieren... und du? 🔥'
+  },
+  'howItWorks.subtitle': {
+    FR: 'Direct. Efficace. Boom ! 💥',
+    EN: 'Direct. Efficient. Boom! 💥',
+    ES: 'Directo. Eficiente. ¡Boom! 💥',
+    DE: 'Direkt. Effizient. Boom! 💥'
+  },
+  'howItWorks.step1.title': {
+    FR: 'Classe tes phrases et accroches',
+    EN: 'Organize your phrases and hooks',
+    ES: 'Organiza tus frases y ganchos',
+    DE: 'Organisiere deine Sätze und Hooks'
+  },
+  'howItWorks.step1.description': {
+    FR: 'Organise tes meilleures punchlines par catégories : PPV, upsells, objections...',
+    EN: 'Organize your best punchlines by categories: PPV, upsells, objections...',
+    ES: 'Organiza tus mejores punchlines por categorías: PPV, upsells, objeciones...',
+    DE: 'Organisiere deine besten Punchlines nach Kategorien: PPV, Upsells, Einwände...'
+  },
+  'howItWorks.step2.title': {
+    FR: 'Clique → colle instantanément',
+    EN: 'Click → paste instantly',
+    ES: 'Clic → pega instantáneamente',
+    DE: 'Klick → sofort einfügen'
+  },
+  'howItWorks.step2.description': {
+    FR: 'Un simple clic et ta phrase parfaite est collée dans ton chat. Fini les hésitations !',
+    EN: 'A simple click and your perfect phrase is pasted in your chat. No more hesitation!',
+    ES: 'Un simple clic y tu frase perfecta se pega en tu chat. ¡Se acabaron las vacilaciones!',
+    DE: 'Ein einfacher Klick und dein perfekter Satz wird in deinen Chat eingefügt. Schluss mit dem Zögern!'
+  },
+  'howItWorks.step3.title': {
+    FR: 'Réponds plus vite, encaisses plus',
+    EN: 'Respond faster, earn more',
+    ES: 'Responde más rápido, gana más',
+    DE: 'Antworte schneller, verdiene mehr'
+  },
+  'howItWorks.step3.description': {
+    FR: 'Gère plus de clients simultanément et multiplie tes revenus sans effort.',
+    EN: 'Handle more clients simultaneously and multiply your revenue effortlessly.',
+    ES: 'Maneja más clientes simultáneamente y multiplica tus ingresos sin esfuerzo.',
+    DE: 'Betreue mehr Kunden gleichzeitig und multipliziere deine Einnahmen mühelos.'
+  },
+
+  // Testimonials Section
+  'testimonials.title': {
+    FR: '💬 Leur chatting n\'a plus rien à voir avec le classique.',
+    EN: '💬 Their chatting has nothing to do with the classic anymore.',
+    ES: '💬 Su chat ya no tiene nada que ver con el clásico.',
+    DE: '💬 Ihr Chatten hat nichts mehr mit dem Klassischen zu tun.'
+  },
+  'testimonials.subtitle': {
+    FR: 'Désormais, il est structuré, rapide et performant. Rejoignez des milliers de chatters qui transforment leurs résultats avec ChatFloww',
+    EN: 'Now it\'s structured, fast and efficient. Join thousands of chatters transforming their results with ChatFloww',
+    ES: 'Ahora es estructurado, rápido y eficiente. Únete a miles de chatters que transforman sus resultados con ChatFloww',
+    DE: 'Jetzt ist es strukturiert, schnell und effizient. Schließe dich Tausenden von Chattern an, die ihre Ergebnisse mit ChatFloww transformieren'
+  },
+
+  // Final CTA Section
+  'finalCta.title': {
+    FR: 'Chaque détail compte… maximise ton CA dès maintenant ! ⚡💎',
+    EN: 'Every detail counts... maximize your revenue right now! ⚡💎',
+    ES: 'Cada detalle cuenta... ¡maximiza tu facturación ahora mismo! ⚡💎',
+    DE: 'Jedes Detail zählt... maximiere jetzt deinen Umsatz! ⚡💎'
+  },
+  'finalCta.subtitle': {
+    FR: 'Les meilleurs chatters utilisent ChatFloww pour écraser la concurrence.',
+    EN: 'The best chatters use ChatFloww to crush the competition.',
+    ES: 'Los mejores chatters usan ChatFloww para aplastar a la competencia.',
+    DE: 'Die besten Chatter nutzen ChatFloww, um die Konkurrenz zu zermalmen.'
+  },
+  'finalCta.testimonial': {
+    FR: '"Avec ChatFloww, je triple mon avance : mes phrases perso sont toutes prêtes en un clic, et l\'inspiration vient naturellement ! 🚀💎."',
+    EN: '"With ChatFloww, I triple my lead: my personal phrases are all ready with one click, and inspiration comes naturally! 🚀💎."',
+    ES: '"Con ChatFloww, triplico mi ventaja: mis frases personales están todas listas con un clic, ¡y la inspiración viene naturalmente! 🚀💎."',
+    DE: '"Mit ChatFloww verdreifache ich meinen Vorsprung: Meine persönlichen Sätze sind alle mit einem Klick bereit, und die Inspiration kommt natürlich! 🚀💎."'
+  },
+  'finalCta.author': {
+    FR: '— Sarah M., Top Chatter',
+    EN: '— Sarah M., Top Chatter',
+    ES: '— Sarah M., Top Chatter',
+    DE: '— Sarah M., Top Chatter'
+  },
+
+  // Footer Section
+  'footer.description': {
+    FR: 'L\'outil ultime pour doubler ta vitesse de chat et multiplier tes revenus.',
+    EN: 'The ultimate tool to double your chat speed and multiply your revenue.',
+    ES: 'La herramienta definitiva para duplicar tu velocidad de chat y multiplicar tus ingresos.',
+    DE: 'Das ultimative Tool, um deine Chat-Geschwindigkeit zu verdoppeln und deine Einnahmen zu multiplizieren.'
+  },
+  'footer.support': {
+    FR: 'Support',
+    EN: 'Support',
+    ES: 'Soporte',
+    DE: 'Support'
+  },
+  'footer.helpCenter': {
+    FR: 'Centre d\'aide',
+    EN: 'Help Center',
+    ES: 'Centro de ayuda',
+    DE: 'Hilfe-Center'
+  },
+  'footer.copyright': {
+    FR: '© 2025 ChatFloww – Tous droits réservés. Toute copie ou reproduction entraînera des poursuites.',
+    EN: '© 2025 ChatFloww – All rights reserved. Any copying or reproduction will result in prosecution.',
+    ES: '© 2025 ChatFloww – Todos los derechos reservados. Cualquier copia o reproducción resultará en enjuiciamiento.',
+    DE: '© 2025 ChatFloww – Alle Rechte vorbehalten. Jedes Kopieren oder Reproduzieren führt zu rechtlichen Schritten.'
+  },
+  'footer.tagline': {
+    FR: 'Boostez vos conversations, multipliez vos revenus.',
+    EN: 'Boost your conversations, multiply your revenue.',
+    ES: 'Impulsa tus conversaciones, multiplica tus ingresos.',
+    DE: 'Steigere deine Gespräche, multipliziere deine Einnahmen.'
+  },
+
+  // Privacy Policy Section
+  'privacy.title': {
+    FR: '📜 Politique de Confidentialité & Protection de ChatFloww',
+    EN: '📜 Privacy Policy & ChatFloww Protection',
+    ES: '📜 Política de Privacidad y Protección de ChatFloww',
+    DE: '📜 Datenschutzrichtlinie & ChatFloww-Schutz'
+  },
+  'privacy.intellectual.title': {
+    FR: 'Propriété intellectuelle',
+    EN: 'Intellectual Property',
+    ES: 'Propiedad Intelectual',
+    DE: 'Geistiges Eigentum'
+  },
+  'privacy.intellectual.content': {
+    FR: 'L\'outil ChatFloww, son nom, son logo, son interface et l\'ensemble de ses fonctionnalités sont protégés par les lois en vigueur sur le droit d\'auteur et la propriété intellectuelle. Toute reproduction, distribution, modification ou utilisation non autorisée de ChatFloww, en totalité ou en partie, est strictement interdite sans l\'accord écrit de on Nom du CEO de ChatFloww.',
+    EN: 'The ChatFloww tool, its name, logo, interface and all its features are protected by current copyright and intellectual property laws. Any unauthorized reproduction, distribution, modification or use of ChatFloww, in whole or in part, is strictly prohibited without written consent from the ChatFloww CEO.',
+    ES: 'La herramienta ChatFloww, su nombre, logotipo, interfaz y todas sus características están protegidas por las leyes actuales de derechos de autor y propiedad intelectual. Cualquier reproducción, distribución, modificación o uso no autorizado de ChatFloww, total o parcial, está estrictamente prohibido sin el consentimiento por escrito del CEO de ChatFloww.',
+    DE: 'Das ChatFloww-Tool, sein Name, Logo, Interface und alle seine Funktionen sind durch geltende Urheberrechts- und Eigentumsgesetze geschützt. Jede unbefugte Reproduktion, Verbreitung, Änderung oder Nutzung von ChatFloww, ganz oder teilweise, ist ohne schriftliche Zustimmung des ChatFloww-CEOs strengstens untersagt.'
+  },
+  'privacy.data.title': {
+    FR: 'Confidentialité et données',
+    EN: 'Privacy and Data',
+    ES: 'Privacidad y Datos',
+    DE: 'Datenschutz und Daten'
+  },
+  'privacy.data.content': {
+    FR: 'Les informations collectées via ChatFloww (données de connexion, préférences d\'utilisation, messages, etc.) sont utilisées uniquement pour améliorer l\'expérience utilisateur et ne seront jamais revendues à des tiers sans consentement.',
+    EN: 'Information collected via ChatFloww (login data, usage preferences, messages, etc.) is used solely to improve user experience and will never be resold to third parties without consent.',
+    ES: 'La información recopilada a través de ChatFloww (datos de conexión, preferencias de uso, mensajes, etc.) se utiliza únicamente para mejorar la experiencia del usuario y nunca se revenderá a terceros sin consentimiento.',
+    DE: 'Über ChatFloww gesammelte Informationen (Anmeldedaten, Nutzungspräferenzen, Nachrichten usw.) werden ausschließlich zur Verbesserung der Benutzererfahrung verwendet und niemals ohne Zustimmung an Dritte weiterverkauft.'
+  },
+  'privacy.responsibility.title': {
+    FR: 'Responsabilité et usage',
+    EN: 'Responsibility and Usage',
+    ES: 'Responsabilidad y Uso',
+    DE: 'Verantwortung und Nutzung'
+  },
+  'privacy.responsibility.content': {
+    FR: 'En utilisant ChatFloww, vous acceptez de respecter son usage conforme à la loi et aux présentes conditions. Toute tentative de copie, piratage, rétro-ingénierie ou redistribution non autorisée de l\'outil entraînera des poursuites judiciaires conformément aux articles L335-2 et suivants du Code de la Propriété Intellectuelle.',
+    EN: 'By using ChatFloww, you agree to respect its lawful use and these terms. Any attempt to copy, hack, reverse engineer or unauthorized redistribution of the tool will result in legal action in accordance with applicable intellectual property laws.',
+    ES: 'Al usar ChatFloww, aceptas respetar su uso conforme a la ley y estos términos. Cualquier intento de copia, pirateo, ingeniería inversa o redistribución no autorizada de la herramienta resultará en acciones legales de acuerdo con las leyes de propiedad intelectual aplicables.',
+    DE: 'Durch die Nutzung von ChatFloww stimmen Sie zu, die rechtmäßige Nutzung und diese Bedingungen zu respektieren. Jeder Versuch des Kopierens, Hackens, Reverse Engineering oder unbefugter Weiterverteilung des Tools führt zu rechtlichen Schritten gemäß den geltenden Gesetzen zum geistigen Eigentum.'
+  },
+  'privacy.disclaimer.title': {
+    FR: 'Disclaimer',
+    EN: 'Disclaimer',
+    ES: 'Disclaimer',
+    DE: 'Haftungsausschluss'
+  },
+  'privacy.disclaimer.content': {
+    FR: 'Nous nous réservons le droit de suspendre ou de supprimer l\'accès à ChatFloww en cas de non-respect de ces règles. L\'utilisation frauduleuse, abusive ou illicite pourra donner lieu à des sanctions civiles et pénales.',
+    EN: 'We reserve the right to suspend or remove access to ChatFloww in case of non-compliance with these rules. Fraudulent, abusive or illicit use may result in civil and criminal sanctions.',
+    ES: 'Nos reservamos el derecho de suspender o eliminar el acceso a ChatFloww en caso de incumplimiento de estas reglas. El uso fraudulento, abusivo o ilícito puede resultar en sanciones civiles y penales.',
+    DE: 'Wir behalten uns das Recht vor, den Zugang zu ChatFloww bei Nichteinhaltung dieser Regeln zu sperren oder zu entfernen. Betrügerische, missbräuchliche oder rechtswidrige Nutzung kann zu zivil- und strafrechtlichen Sanktionen führen.'
+  },
+  'privacy.contact.title': {
+    FR: 'Contact',
+    EN: 'Contact',
+    ES: 'Contacto',
+    DE: 'Kontakt'
+  },
+  // WhatsApp message translation
+  'contact.whatsapp.message': {
+    FR: 'Bonjour, je suis intéressé par ChatFloww et j\'aimerais en savoir plus !',
+    EN: 'Hello, I am interested in ChatFloww and would like to know more!',
+    ES: 'Hola, estoy interesado en ChatFloww y me gustaría saber más!',
+    DE: 'Hallo, ich bin an ChatFloww interessiert und möchte mehr erfahren!'
   }
 };
 

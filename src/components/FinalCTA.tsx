@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const FinalCTA = () => {
+  const { t } = useLanguage();
+  
   const openDemo = () => {
     window.open("https://www.youtube.com/watch?v=DEMO-LINK", "_blank");
   };
@@ -13,13 +16,12 @@ const FinalCTA = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
-          Chaque détail compte… maximise ton CA dès maintenant ! ⚡💎
+          {t('finalCta.title')}
         </h2>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-          Les meilleurs chatters utilisent ChatFloww pour{" "}
           <span className="bg-gradient-to-r from-primary-glow to-accent bg-clip-text text-transparent font-bold">
-            écraser la concurrence.
+            {t('finalCta.subtitle')}
           </span>
         </p>
         
@@ -30,11 +32,10 @@ const FinalCTA = () => {
         {/* Testimonial style quote */}
         <div className="mt-12 bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-8 border border-primary-foreground/20">
           <blockquote className="text-lg text-primary-foreground/90 italic">
-            "Avec ChatFloww, je triple mon avance : mes phrases perso sont
-            toutes prêtes en un clic, et l’inspiration vient naturellement ! 🚀💎."
+            {t('finalCta.testimonial')}
           </blockquote>
           <div className="mt-4 text-primary-foreground/70">
-            — Sarah M., Top Chatter
+            {t('finalCta.author')}
           </div>
         </div>
       </div>

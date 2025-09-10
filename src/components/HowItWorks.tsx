@@ -1,23 +1,26 @@
 import { FileText, MousePointer, TrendingUp } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const HowItWorks = () => {
+  const { t } = useLanguage();
+  
   const steps = [
     {
       icon: FileText,
-      title: "Classe tes phrases et accroches",
-      description: "Organise tes meilleures punchlines par catégories : PPV, upsells, objections...",
+      title: t('howItWorks.step1.title'),
+      description: t('howItWorks.step1.description'),
       step: "1"
     },
     {
       icon: MousePointer,
-      title: "Clique → colle instantanément",
-      description: "Un simple clic et ta phrase parfaite est collée dans ton chat. Fini les hésitations !",
+      title: t('howItWorks.step2.title'),
+      description: t('howItWorks.step2.description'),
       step: "2"
     },
     {
       icon: TrendingUp,
-      title: "Réponds plus vite, encaisses plus",
-      description: "Gère plus de clients simultanément et multiplie tes revenus sans effort.",
+      title: t('howItWorks.step3.title'),
+      description: t('howItWorks.step3.description'),
       step: "3"
     }
   ];
@@ -51,10 +54,10 @@ const HowItWorks = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-           ChatFloww leur fait exploser les ventes… et toi ? 🔥
+            {t('howItWorks.title')}
           </h2>
           <p className="text-xl text-muted-foreground">
-            Direct. Efficace. Boom ! 💥
+            {t('howItWorks.subtitle')}
           </p>
         </div>
         

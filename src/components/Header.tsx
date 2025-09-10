@@ -24,16 +24,16 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
-            Fonctionnalités
+            {t('nav.features')}
           </a>
           <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
-            Comment ça marche
+            {t('nav.howItWorks')}
           </a>
           <a href="#testimonials" className="text-muted-foreground hover:text-foreground transition-colors">
-            Témoignages
+            {t('nav.testimonials')}
           </a>
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-            Contact
+            {t('nav.contact')}
           </a>
         </nav>
 
